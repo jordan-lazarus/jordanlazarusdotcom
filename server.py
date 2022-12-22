@@ -10,7 +10,7 @@ def home():
 
 @app.route('/contact')
 def contact():
-    return render_template('index.html')
+    return render_template('contact.html')
 
 
 if __name__ == "__main__":
